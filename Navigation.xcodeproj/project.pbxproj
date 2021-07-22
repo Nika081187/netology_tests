@@ -30,6 +30,7 @@
 		280B8E7A25D83B2300A798FD /* InfoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B8E7825D83B2300A798FD /* InfoCoordinator.swift */; };
 		280B8E8225D8421B00A798FD /* PhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B8E8125D8421B00A798FD /* PhotosCoordinator.swift */; };
 		280B8E8325D8421B00A798FD /* PhotosCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B8E8125D8421B00A798FD /* PhotosCoordinator.swift */; };
+		28115B9C26A943FD001B281D /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28115B9B26A943FD001B281D /* NavigationUITests.swift */; };
 		281F130C258A153E0035822E /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F130B258A153E0035822E /* PhotosTableViewCell.swift */; };
 		281F130F258A15940035822E /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F130E258A15940035822E /* PhotosCollectionViewCell.swift */; };
 		284AE2F125B0C49E00027E09 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B5250CE27700A87020 /* FeedViewController.swift */; };
@@ -65,6 +66,16 @@
 		28E822D72688F388006B085E /* ThemesAndColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E822D52688F388006B085E /* ThemesAndColors.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		28115B9E26A943FD001B281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060782A6250CE27700A87020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060782AD250CE27700A87020;
+			remoteInfo = Navigation;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		060782AE250CE27700A87020 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060782B1250CE27700A87020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +94,9 @@
 		280B8E7325D8386300A798FD /* PostCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCoordinator.swift; sourceTree = "<group>"; };
 		280B8E7825D83B2300A798FD /* InfoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinator.swift; sourceTree = "<group>"; };
 		280B8E8125D8421B00A798FD /* PhotosCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCoordinator.swift; sourceTree = "<group>"; };
+		28115B9926A943FD001B281D /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28115B9B26A943FD001B281D /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
+		28115B9D26A943FD001B281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281F130B258A153E0035822E /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
 		281F130E258A15940035822E /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		284AE30B25B0C49E00027E09 /* Navigation copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +122,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28115B9626A943FD001B281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		284AE30425B0C49E00027E09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +144,7 @@
 			children = (
 				28E5B7CB25616863000FE56E /* Profile */,
 				060782B0250CE27700A87020 /* Navigation */,
+				28115B9A26A943FD001B281D /* NavigationUITests */,
 				060782AF250CE27700A87020 /* Products */,
 				284AE30C25B0C49E00027E09 /* Navigation copy-Info.plist */,
 			);
@@ -133,6 +155,7 @@
 			children = (
 				060782AE250CE27700A87020 /* Navigation.app */,
 				284AE30B25B0C49E00027E09 /* Navigation copy.app */,
+				28115B9926A943FD001B281D /* NavigationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +178,15 @@
 				060782C7250CEE5D00A87020 /* PostViewController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		28115B9A26A943FD001B281D /* NavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28115B9B26A943FD001B281D /* NavigationUITests.swift */,
+				28115B9D26A943FD001B281D /* Info.plist */,
+			);
+			path = NavigationUITests;
 			sourceTree = "<group>";
 		};
 		28E5B7CB25616863000FE56E /* Profile */ = {
@@ -200,6 +232,24 @@
 			productReference = 060782AE250CE27700A87020 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		28115B9826A943FD001B281D /* NavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28115BA026A943FD001B281D /* Build configuration list for PBXNativeTarget "NavigationUITests" */;
+			buildPhases = (
+				28115B9526A943FD001B281D /* Sources */,
+				28115B9626A943FD001B281D /* Frameworks */,
+				28115B9726A943FD001B281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28115B9F26A943FD001B281D /* PBXTargetDependency */,
+			);
+			name = NavigationUITests;
+			productName = NavigationUITests;
+			productReference = 28115B9926A943FD001B281D /* NavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		284AE2EF25B0C49E00027E09 /* Navigation copy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284AE30825B0C49E00027E09 /* Build configuration list for PBXNativeTarget "Navigation copy" */;
@@ -223,12 +273,16 @@
 		060782A6250CE27700A87020 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Artem Novichkov";
 				TargetAttributes = {
 					060782AD250CE27700A87020 = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					28115B9826A943FD001B281D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 060782AD250CE27700A87020;
 					};
 				};
 			};
@@ -247,6 +301,7 @@
 			targets = (
 				060782AD250CE27700A87020 /* Navigation */,
 				284AE2EF25B0C49E00027E09 /* Navigation copy */,
+				28115B9826A943FD001B281D /* NavigationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +313,13 @@
 			files = (
 				060782BE250CE27A00A87020 /* LaunchScreen.storyboard in Resources */,
 				060782BB250CE27A00A87020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28115B9726A943FD001B281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +368,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28115B9526A943FD001B281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28115B9C26A943FD001B281D /* NavigationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		284AE2F025B0C49E00027E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +410,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28115B9F26A943FD001B281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060782AD250CE27700A87020 /* Navigation */;
+			targetProxy = 28115B9E26A943FD001B281D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		060782BC250CE27A00A87020 /* LaunchScreen.storyboard */ = {
@@ -503,6 +581,46 @@
 			};
 			name = Release;
 		};
+		28115BA126A943FD001B281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios7.cherepova.NavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Navigation;
+			};
+			name = Debug;
+		};
+		28115BA226A943FD001B281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavigationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios7.cherepova.NavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Navigation;
+			};
+			name = Release;
+		};
 		284AE30925B0C49E00027E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -560,6 +678,15 @@
 			buildConfigurations = (
 				060782C3250CE27A00A87020 /* Debug */,
 				060782C4250CE27A00A87020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28115BA026A943FD001B281D /* Build configuration list for PBXNativeTarget "NavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28115BA126A943FD001B281D /* Debug */,
+				28115BA226A943FD001B281D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

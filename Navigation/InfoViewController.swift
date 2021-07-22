@@ -12,7 +12,7 @@ class InfoViewController: UIViewController {
 
     private lazy var showAlertButton: UIButton = {
         let showAlertButton = UIButton(type: .system)
-        showAlertButton.setTitle("Add post", for: .normal)
+        showAlertButton.setTitle("Add new post", for: .normal)
         showAlertButton.setTitleColor(.red, for: .normal)
         showAlertButton.addTarget(self, action: #selector(showAlertPressed), for:.touchUpInside)
         showAlertButton.toAutoLayout()
